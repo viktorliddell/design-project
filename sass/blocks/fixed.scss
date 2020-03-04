@@ -20,7 +20,7 @@
   flex-shrink: 0;
   cursor: pointer;
   margin-right: 11.3%;
-
+  
   span {
     display: block;
     background-color: $primary;
@@ -34,11 +34,13 @@
       width: 75%;
       margin-left: auto;
     }
+
   }
+  
 }
 
 .fixed__repair, .fixed__map {
-  background: url('../img/repair.svg') left center no-repeat;
+  background: url("../img/repair.svg") left center no-repeat;
   padding: 24px 0 24px 48px;
 
   p {
@@ -52,6 +54,7 @@
     font-size: px-to-rem(14px);
     line-height: px-to-rem(16px);
   }
+
 }
 
 .fixed__phone {
@@ -72,15 +75,16 @@
     font-size: px-to-rem(24px);
     line-height: px-to-rem(28px);
   }
+
 }
 
 .fixed__map {
-  background-image: url('../img/map.png');
+  background-image: url("../img/map.png");
   display: none;
 }
 
 .fixed__btn {
-  @include btn() {
+  @include btn {
     display: none;
     margin-left: 24px;
     max-width: 164px;
@@ -95,21 +99,25 @@
 }
 
 @media (min-width: 480px) {
+
   .fixed__hamburger {
     margin-right: 5%;
   }
 
   .fixed__repair {
-    margin-right: 5%;
+    margin-right: 7%;
   }
 
   .fixed__map {
     display: block;
   }
+
 }
 
 @media (min-width: 680px) {
+
   .fixed__phone {
+
     img {
       display: none;
     }
@@ -117,16 +125,21 @@
     span {
       display: block;
     }
+
   }
+
 }
 
 @media (min-width: 880px) {
+
   .fixed__btn {
     display: block;
   }
+
 }
 
 @media (min-width: 1024px) {
+
   .fixed__callback {
     display: block;
   }
@@ -135,7 +148,7 @@
     position: relative;
 
     &::after {
-      content: 'Меню';
+      content: "Меню";
       font-size: px-to-rem(14px);
       line-height: px-to-rem(16px);
       position: absolute;
@@ -143,5 +156,7 @@
       top: 50%;
       transform: translateY(-50%);
     }
+
   }
+
 }
