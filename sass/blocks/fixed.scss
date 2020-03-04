@@ -79,7 +79,7 @@
 }
 
 .fixed__map {
-  background-image: url("../img/map.png");
+  background-image: url("../img/map-1.webp");
   display: none;
 }
 
@@ -105,7 +105,7 @@
   }
 
   .fixed__repair {
-    margin-right: 7%;
+    margin-right: 5%;
   }
 
   .fixed__map {
@@ -142,6 +142,10 @@
 
   .fixed__callback {
     display: block;
+  }
+
+  .fixed__repair {
+    margin-left: 25px;
   }
 
   .fixed__hamburger {

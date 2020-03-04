@@ -1,0 +1,63 @@
+.modal {
+  border: 2px solid lighten($primary, 20%);
+  display: none;
+  background-color: $primary;
+  position: fixed;
+  z-index: 10;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 45px;
+  padding-bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+
+  .form__submit {
+    border-radius: 10px;
+    border: none;
+    background-color: #3CB244;
+    padding: 8px 25px;
+    transition-property: all;
+    transition-property: 500ms;
+    color: $white;
+  }
+
+  .form__disabled {
+    pointer-events: none;
+    background-color: #dedede;
+    color: $black;
+  }
+}
+
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  img {
+    width: 15px;
+    height: auto;
+  }
+}
+
+.form__item {
+  margin-bottom: 40px;
+  position: relative;
+
+  &:last-of-type {
+    margin-bottom: 25px;
+  }
+
+  label {
+    font-size: px-to-rem(12px);
+    line-height: px-to-rem(14px);
+    position: absolute;
+    top: -20px;
+  }
+
+  input {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+  }
+}

@@ -29,7 +29,7 @@
   padding-top: 15px;
   padding-bottom: 0;
   position: relative;
-  background: url("../img/girl-mobile.png") right top no-repeat $primary;
+  background: url("../img/girl-mobile.webp") right top no-repeat $primary;
   z-index: 200;
   max-width: 320px;
   box-sizing: border-box;
@@ -101,7 +101,7 @@
 @media (min-width: 1024px) and (min-height: 768px) {
 
   .main-menu__list {
-    background: url("../img/girl.png") center bottom no-repeat $primary;
+    background: url("../img/girl.webp") center bottom no-repeat $primary;
     padding-left: 64px;
     padding-top: 64px;
   }

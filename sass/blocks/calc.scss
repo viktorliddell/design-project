@@ -98,6 +98,11 @@
   font-size: px-to-rem(17px);
   line-height: px-to-rem(24px);
   margin: 20px 0;
+
+  span {
+    font-size: px-to-rem(19px);
+    color: $primary;
+  }
 }
 
 @media (min-width: 480px) {
@@ -141,6 +146,17 @@
   .calc {
     background-color: $black;
     border-radius: 5px;
+  }
+
+  .calc__result {
+    font-size: px-to-rem(16px);
+    line-height: px-to-rem(18px);
+    position: relative;
+    top: -15px;
+  
+    span {
+      font-size: px-to-rem(22px);
+    }
   }
 
   .calc__input {
